@@ -43,6 +43,7 @@ $ openapi --help
     --name <value>            Custom client class name
     --useOptions              Use options instead of arguments
     --useUnionTypes           Use union types instead of enums
+    --exposeHeadersAndBody    Return response headers and body
     --exportCore <value>      Write core files to disk (default: true)
     --exportServices <value>  Write services to disk (default: true)
     --exportModels <value>    Write models to disk (default: true)
@@ -64,6 +65,7 @@ Documentation
 - [Client instances](docs/client-instances.md) `--name`
 - [Argument vs. Object style](docs/arguments-vs-object-style.md) `--useOptions`
 - [Enums vs. Union types](docs/enum-vs-union-types.md) `--useUnionTypes`
+- [Body vs. Headers and Body style](docs/body-vs-headers-and-body-style.md) `--exposeHeadersAndBody`
 - [Runtime schemas](docs/runtime-schemas.md) `--exportSchemas`
 - [Enum with custom names and descriptions](docs/custom-enums.md)
 - [Nullable props (OpenAPI v2)](docs/nullable-props.md)
